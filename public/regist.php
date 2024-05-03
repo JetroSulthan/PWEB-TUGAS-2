@@ -10,22 +10,22 @@
 <body class="bg-gradient-to-r from-[#0061FF] to-[#60EFFF] flex items-center justify-center h-screen">
     <div class="bg-white p-8 rounded-lg shadow-md w-full sm:w-96">
         <h1 class="text-3xl font-bold mb-8 text-center text-gray-800">Register</h1>
-        <form action="#" method="POST">
+        <form action="" method="POST">
             <div class="mb-4">
                 <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
-                <input type="text" id="username" name="username" autocomplete="username" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md">
+                <input type="text" id="username" name="username" autocomplete="username" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md" required>
             </div>
             <div class="mb-4">
                 <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                <input type="email" id="email" name="email" autocomplete="email" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md">
+                <input type="email" id="email" name="email" autocomplete="email" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md" required>
+            </div>
+            <div class="mb-4">
+                <label for="nama" class="block text-sm font-medium text-gray-700">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" autocomplete="email" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md" required>
             </div>
             <div class="mb-4">
                 <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
-                <input type="password" id="password" name="password" autocomplete="new-password" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 border block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-            </div>
-            <div class="mb-4">
-                <label for="confirm_password" class="block text-sm font-medium text-gray-700">Confirm Password</label>
-                <input type="password" id="confirm_password" name="confirm_password" autocomplete="new-password" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 border block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                <input type="password" id="password" name="password" autocomplete="new-password" class="mt-1 py-1 hover:border-blue-600 focus:ring-purple-500 focus:border-purple-500 border block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" required>
             </div>
             <div>
                 <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-[#0061FF] to-[#60EFFF] hover:from-sky-600 hover:to-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
