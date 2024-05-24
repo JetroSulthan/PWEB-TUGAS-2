@@ -1,6 +1,6 @@
 <?php
 
-require_once 'app/config/env.php';
+require_once '/config/env.php';
 
 $host = $_ENV['DB_HOST'];
 $username = $_ENV['DB_USER'];
